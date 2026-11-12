@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>House Rules — Board Game Shelf & Play Log</title>
+<meta name="description" content="A private shelf of board games and a record of every night spent playing them.">
+<meta name="theme-color" content="#08335d">
+<link rel="icon" href="assets/img/logo-gold.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="index">
+
+<div class="loader" aria-hidden="true"><span class="loader__mark"></span></div>
+<div class="ptrans" aria-hidden="true"><div class="ptrans__layer"></div><div class="ptrans__layer"></div><div class="ptrans__layer"></div><div class="ptrans__layer"><div class="ptrans__back"><span class="ptrans__markmask"><span class="ptrans__mark"></span></span></div></div></div>
+<header class="nav" data-tone="dark">
+  <a class="nav__logo" href="index.html" aria-label="House Rules, home"><i></i></a>
+  <button class="nav__btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span class="nav__icon"><i></i><i></i></span></button>
+</header>
+<nav class="menu" id="menu" aria-label="Main">
+  <span class="menu__bg"></span><span class="menu__bg"></span><span class="menu__bg"></span><span class="menu__bg"></span>
+  <div class="menu__items">
+    <div class="menu__col menu__col--main"><div class="menu__links"><span class="mask"><a href="index.html"><span data-roll>Home</span></a></span><span class="mask"><a href="collection.html"><span data-roll>Collection</span></a></span><span class="mask"><a href="plays.html"><span data-roll>Play Log</span></a></span><span class="mask"><a href="about.html"><span data-roll>About</span></a></span></div></div>
+    <div class="menu__col">
+      <div class="menu__socials"><span class="mask"><a href="https://www.instagram.com/" target="_blank" rel="noopener"><span data-roll>Instagram</span></a></span><span class="mask"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><span data-roll>LinkedIn</span></a></span><span class="mask"><a href="https://x.com/" target="_blank" rel="noopener"><span data-roll>X</span></a></span></div>
+      <div class="menu__credit"><span class="mask"><span>A project by</span></span><span class="mask"><a href="#"><span data-roll>KITE.STUDIO</span></a></span></div>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+  <section class="hero" data-tone="dark" aria-label="House Rules">
+    <div class="hero__stage">
+      <canvas class="hero__canvas hero__canvas--back" aria-hidden="true"></canvas>
+      <p class="hero__tagline">Every table keeps a story, and every story waits for a move</p>
+      <div class="hero__titlebox"><h1 class="hero__title hero__title--echo" aria-hidden="true" data-fit data-fit-cap=".245" data-fit-grow="no">House Rules</h1><h1 class="hero__title hero__title--main" data-fit data-fit-cap=".245" data-fit-grow="no">House Rules</h1></div>
+      <div class="hero__ill"><img src="assets/img/hero-cut.webp" alt="A painted noblewoman in a lace collar, the house's patron" fetchpriority="high"></div>
+      <canvas class="hero__canvas hero__canvas--front" aria-hidden="true"></canvas>
+    </div>
+  </section>
+  <section class="portal" data-tone="dark" aria-label="Introduction">
+    <div class="portal__stage" data-tone="dark">
+      <canvas class="portal__paint" aria-hidden="true"></canvas>
+      <div class="portal__painting"><div class="portal__canvas"><p class="portal__text">Each box on this shelf started as a scene somebody longed to enter: a chart, a board, a fistful of painted pieces, and a seat at the table for whoever arrives next. Here are a few worth wandering into.</p></div></div>
+      <div class="portal__cue"><span class="portal__cuelabel">Keep scrolling <span class="portal__cuearrow">↓</span></span><span class="portal__track"><span></span></span></div>
+    </div>
+  </section>
+  <section class="featured" data-tone="light" aria-labelledby="featured-title">
+    <div class="pghead">
+      <div class="pghead__clip"><h2 class="pghead__title" id="featured-title" data-reveal="chars" data-fit data-fit-mode="font">Featured Games</h2></div>
+      <div class="pghead__row"><span class="sep pghead__sep" data-reveal="rule"></span><p class="pghead__desc" data-reveal="lines">Picked for the worlds they open and the stories they leave behind.</p>
+        <div class="pghead__aside" data-reveal="fade"><a class="catalog" href="collection.html"><span class="catalog__count">11</span><span class="catalog__cap">games on the shelf</span><span class="catalog__action"><span data-roll>Enter the collection</span><span class="arr">→</span></span></a></div></div>
+    </div>
+    <div class="grid grid--featured" data-list="featured"></div>
+  </section>
+  <section class="deck" data-tone="light" aria-label="House numbers">
+    <div class="deck__sticky">
+      <p class="deck__word" aria-hidden="true"><span class="deck__lm"><span class="deck__l">P</span></span><span class="deck__lm"><span class="deck__l">L</span></span><span class="deck__lm"><span class="deck__l">A</span></span><span class="deck__lm"><span class="deck__l">Y</span></span></p>
+      <div class="deck__cards"></div>
+      <p class="deck__hint">Grab a card and slide it across the table</p>
+    </div>
+  </section>
+  <section class="table" data-tone="light" aria-labelledby="log-title">
+    <div class="table__featured"></div>
+    <div class="archive">
+      <div class="archive__head"><h2 id="log-title" data-reveal="lines">The play log</h2>
+        <div class="archive__aside"><dl class="totals"><div><dt>Latest nights</dt><dd>10 of 80</dd></div></dl><a class="arrow-link" href="plays.html"><span data-roll>Open the full log</span> <span class="arr">→</span></a></div></div>
+      <div class="cols" aria-hidden="true"><span>Date</span><span>Games</span><span>Winner</span><span>Time</span></div>
+      <ol class="archive__list" style="margin:0;padding:0;list-style:none"></ol>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" data-tone="dark">
+  <div class="footer__art" aria-hidden="true"><img src="assets/img/table-lit.webp" alt=""><canvas></canvas></div>
+  <div class="footer__intro"><span class="footer__logo" aria-hidden="true"></span><h2 class="footer__title" data-reveal="chars">Pull up a chair</h2><p class="footer__tagline" data-reveal="lines">The next chapter begins with your move.</p></div>
+  <div class="footer__places">
+    <a class="place" href="collection.html"><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__diamond"></span><span class="place__label">The Collection</span><span class="place__note">Every game that has won a spot on the shelf.</span></a>
+    <a class="place" href="plays.html"><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__diamond"></span><span class="place__label">The Play Log</span><span class="place__note">Each night around the table, written down.</span></a>
+    <a class="place" href="about.html"><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__diamond"></span><span class="place__label">About</span><span class="place__note">Who lays out this table, and why it is kept.</span></a>
+  </div>
+  <div class="footer__contact">
+    <div class="footer__write"><p class="footer__label">Write to the house</p><a class="footer__email" href="mailto:hello@kite.studio"><span data-roll>hello@kite.studio</span></a></div>
+    <ul class="footer__socials"><li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><span data-roll>Instagram</span></a></li><li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><span data-roll>LinkedIn</span></a></li><li><a href="https://x.com/" target="_blank" rel="noopener"><span data-roll>X</span></a></li></ul>
+  </div>
+  <div class="footer__space"></div>
+  <div class="footer__bottom"><p>© 2026 House Rules</p><p>Design &amp; Development by <a href="#">KITE.STUDIO</a></p></div>
+</footer>
+
+<div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <button class="modal__backdrop" type="button" aria-label="Close" tabindex="-1"></button>
+  <div class="modal__layer modal__layer--g"></div><div class="modal__layer modal__layer--o"></div><div class="modal__layer modal__layer--t"></div>
+  <div class="modal__layer modal__panel">
+    <div class="modal__image"><figure class="modal__plate"><div class="modal__plateimg"><img src="assets/img/g01.jpg" alt="" loading="lazy"></div><span class="modal__plinth"></span></figure></div>
+    <div class="modal__content">
+      <button class="modal__close" type="button" aria-label="Close"><span></span></button>
+      <p class="modal__medium"></p>
+      <div class="modal__heading"><div class="modal__tmask"><h2 class="modal__title" id="modal-title"></h2></div><div class="modal__rule"></div></div>
+      <div class="modal__body"><p class="modal__maker"></p><p class="modal__desc"></p></div>
+      <div class="modal__facts"><div class="modal__record"><p class="modal__count"></p><p class="modal__cap">nights at the table</p></div><dl class="modal__ledger"></dl></div>
+      <div class="modal__pager">
+        <button class="modal__plink modal__plink--prev" type="button"><span class="modal__plabel"><span class="modal__parr">←</span> Previous</span><span class="modal__ptitle"></span></button>
+        <button class="modal__plink modal__plink--next" type="button"><span class="modal__plabel">Next <span class="modal__parr">→</span></span><span class="modal__ptitle"></span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/vendor/lenis.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/vendor/three.min.js"></script>
+<script src="assets/js/pieces.js"></script>
+<script src="assets/js/home.js"></script>
+<script src="assets/js/core.js"></script>
+</body>
+</html>

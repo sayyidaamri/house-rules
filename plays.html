@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Play Log — House Rules</title>
+<meta name="description" content="Each night around the table, written down: who sat in, what came out of the box, and who walked away the winner.">
+<meta name="theme-color" content="#08335d">
+<link rel="icon" href="assets/img/logo-gold.svg" type="image/svg+xml">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body data-page="plays">
+
+<div class="loader" aria-hidden="true"><span class="loader__mark"></span></div>
+<div class="ptrans" aria-hidden="true"><div class="ptrans__layer"></div><div class="ptrans__layer"></div><div class="ptrans__layer"></div><div class="ptrans__layer"><div class="ptrans__back"><span class="ptrans__markmask"><span class="ptrans__mark"></span></span></div></div></div>
+<header class="nav" data-tone="light">
+  <a class="nav__logo" href="index.html" aria-label="House Rules, home"><i></i></a>
+  <button class="nav__btn" type="button" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span class="nav__icon"><i></i><i></i></span></button>
+</header>
+<nav class="menu" id="menu" aria-label="Main">
+  <span class="menu__bg"></span><span class="menu__bg"></span><span class="menu__bg"></span><span class="menu__bg"></span>
+  <div class="menu__items">
+    <div class="menu__col menu__col--main"><div class="menu__links"><span class="mask"><a href="index.html"><span data-roll>Home</span></a></span><span class="mask"><a href="collection.html"><span data-roll>Collection</span></a></span><span class="mask"><a href="plays.html"><span data-roll>Play Log</span></a></span><span class="mask"><a href="about.html"><span data-roll>About</span></a></span></div></div>
+    <div class="menu__col">
+      <div class="menu__socials"><span class="mask"><a href="https://www.instagram.com/" target="_blank" rel="noopener"><span data-roll>Instagram</span></a></span><span class="mask"><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><span data-roll>LinkedIn</span></a></span><span class="mask"><a href="https://x.com/" target="_blank" rel="noopener"><span data-roll>X</span></a></span></div>
+      <div class="menu__credit"><span class="mask"><span>A project by</span></span><span class="mask"><a href="#"><span data-roll>KITE.STUDIO</span></a></span></div>
+    </div>
+  </div>
+</nav>
+
+<main id="main">
+  <section class="chero" data-tone="light" aria-labelledby="plays-title">
+    <div class="pghead">
+      <div class="pghead__clip"><h1 class="pghead__title" id="plays-title" data-intro="chars" data-fit data-fit-mode="font">The Play Log</h1></div>
+      <div class="pghead__row"><span class="sep pghead__sep" data-intro="rule"></span><p class="pghead__desc" data-intro="lines">Each night around the table, written down: who sat in, what came out of the box, and who walked away the winner.</p>
+        <div class="pghead__aside" data-intro="fade"><div class="catalog"><span class="catalog__count">80</span><span class="catalog__cap">nights on record, since January 2026</span></div>
+          <dl class="ledger"><div><dt>At the table</dt><dd>130h 00m</dd></div><div><dt>Longest night</dt><dd>3h 05m</dd></div><div><dt>Average night</dt><dd>1h 38m</dd></div><div><dt>Games played</dt><dd>143</dd></div></dl></div></div>
+    </div>
+    <div class="tally">
+      <div class="readout"><p class="readout__line"><span class="readout__date">Every bar is one night.</span><span class="readout__games">Its height is how long it ran, cut into the games played.</span></p><p class="readout__meta"><span class="hint-pointer">Hover a night to read it, click to open it in the record.</span><span class="hint-touch">Tap a night to read it, tap again to open it in the record.</span></p></div>
+      <div class="chart"><div class="chart__scale"></div><div class="ribbon" tabindex="0" role="group" aria-label="Nights chart"></div><div class="axis"></div></div>
+    </div>
+  </section>
+  <section class="latest" data-tone="light" aria-label="Latest night"></section>
+  <section class="record" data-tone="light" aria-label="Record">
+    <div class="record__head">
+      <div class="record__query"><p class="sentence" tabindex="-1"></p><p class="record__note" hidden></p></div>
+      <dl class="totals record__totals"><div><dt>Nights</dt><dd class="t-nights"></dd></div><div><dt>At the table</dt><dd class="t-time"></dd></div><div><dt>Page</dt><dd class="t-page"></dd></div></dl>
+    </div>
+    <div class="record__stage">
+      <div class="record__body">
+        <div class="cols" aria-hidden="true"><span>Date</span><span>Games</span><span>Winner</span><span>Time</span></div>
+        <ol class="record__list" style="margin:0;padding:0;list-style:none"></ol>
+        <div class="record__empty" hidden><p>No night at this table matches all of that.</p><button class="arrow-link record__reset" type="button" style="border:0;background:none;padding:0;cursor:pointer"><span data-roll>Show every night</span> <span class="arr">→</span></button></div>
+        <nav class="pagination" aria-label="Pages"></nav>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer class="footer" data-tone="dark">
+  <div class="footer__art" aria-hidden="true"><img src="assets/img/table-lit.webp" alt=""><canvas></canvas></div>
+  <div class="footer__intro"><span class="footer__logo" aria-hidden="true"></span><h2 class="footer__title" data-reveal="chars">Pull up a chair</h2><p class="footer__tagline" data-reveal="lines">The next chapter begins with your move.</p></div>
+  <div class="footer__places">
+    <a class="place" href="collection.html"><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__diamond"></span><span class="place__label">The Collection</span><span class="place__note">Every game that has won a spot on the shelf.</span></a>
+    <a class="place" href="plays.html"><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__diamond"></span><span class="place__label">The Play Log</span><span class="place__note">Each night around the table, written down.</span></a>
+    <a class="place" href="about.html"><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__paint"></span><span class="place__diamond"></span><span class="place__label">About</span><span class="place__note">Who lays out this table, and why it is kept.</span></a>
+  </div>
+  <div class="footer__contact">
+    <div class="footer__write"><p class="footer__label">Write to the house</p><a class="footer__email" href="mailto:hello@kite.studio"><span data-roll>hello@kite.studio</span></a></div>
+    <ul class="footer__socials"><li><a href="https://www.instagram.com/" target="_blank" rel="noopener"><span data-roll>Instagram</span></a></li><li><a href="https://www.linkedin.com/" target="_blank" rel="noopener"><span data-roll>LinkedIn</span></a></li><li><a href="https://x.com/" target="_blank" rel="noopener"><span data-roll>X</span></a></li></ul>
+  </div>
+  <div class="footer__space"></div>
+  <div class="footer__bottom"><p>© 2026 House Rules</p><p>Design &amp; Development by <a href="#">KITE.STUDIO</a></p></div>
+</footer>
+
+<div class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <button class="modal__backdrop" type="button" aria-label="Close" tabindex="-1"></button>
+  <div class="modal__layer modal__layer--g"></div><div class="modal__layer modal__layer--o"></div><div class="modal__layer modal__layer--t"></div>
+  <div class="modal__layer modal__panel">
+    <div class="modal__image"><figure class="modal__plate"><div class="modal__plateimg"><img src="assets/img/g01.jpg" alt="" loading="lazy"></div><span class="modal__plinth"></span></figure></div>
+    <div class="modal__content">
+      <button class="modal__close" type="button" aria-label="Close"><span></span></button>
+      <p class="modal__medium"></p>
+      <div class="modal__heading"><div class="modal__tmask"><h2 class="modal__title" id="modal-title"></h2></div><div class="modal__rule"></div></div>
+      <div class="modal__body"><p class="modal__maker"></p><p class="modal__desc"></p></div>
+      <div class="modal__facts"><div class="modal__record"><p class="modal__count"></p><p class="modal__cap">nights at the table</p></div><dl class="modal__ledger"></dl></div>
+      <div class="modal__pager">
+        <button class="modal__plink modal__plink--prev" type="button"><span class="modal__plabel"><span class="modal__parr">←</span> Previous</span><span class="modal__ptitle"></span></button>
+        <button class="modal__plink modal__plink--next" type="button"><span class="modal__plabel">Next <span class="modal__parr">→</span></span><span class="modal__ptitle"></span></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="assets/js/vendor/lenis.min.js"></script>
+<script src="assets/js/data.js"></script>
+<script src="assets/js/plays.js"></script>
+<script src="assets/js/core.js"></script>
+</body>
+</html>
