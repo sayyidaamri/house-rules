@@ -1,3 +1,5 @@
+![Preview](docs/preview/homepage.gif)
+
 # House Rules — Board Game Shelf & Play Log
 
 Situs statis HTML/CSS/JS native, tanpa build step dan tanpa server. Buka `index.html` langsung di browser (Chrome/Edge/Firefox); semua aset lokal, jadi offline pun jalan.
